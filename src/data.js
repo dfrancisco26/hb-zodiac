@@ -48,3 +48,4 @@ export const zodiac = [
     dates: 'Aug 23 - Sep 22',
   },
 ];
+
