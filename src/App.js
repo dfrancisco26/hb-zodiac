@@ -7,9 +7,11 @@ function App() {
   return (
     <div className="App">
       
-      <Header />
+      <Header
+        propName='David F' />
       <Main />
-      <Footer />
+      <Footer
+        year='2022' />
 
     </div>
   );

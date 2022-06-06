@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
 
-export default function Header() {
-  return <header>Alchemy Astrology, by David F</header>;
+export default function Header({ propName }) {
+  return <header>Alchemy Astrology, by {propName}</header>;
 }
